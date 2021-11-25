@@ -21,13 +21,9 @@ The calculation shows a p-value of 5.35x10<sup>-11</sup> and the r-squared value
 
 ![Multiple Linear Regression on MPG](Images/summary_mpg_multiple_linear_regression.png)
 
-* It is observed that the variables **Vehicle Length** and the **Ground Clearance** provide non-random amount of variance to the mpg values in the dataset.  It is seen that the calculation yielded p-values of 2.6x10<sup>-12</sup> and 5.21x10<sup>-8</sup> for the Vehicle Length and the Ground Clearance, respectively.
-* 
-* 
-* respectively.
-* The most significant variables in our dataset which show a non-random effect on the MPG of the MechaCar are the **Vehicle Length** and the **Ground Clearance**. As indicated by the yellow arrows in the image above, a linear regression model run on these variables against figures for MPG, resulted in p-values of 2.6x10<sup>-12</sup> and 5.21x10<sup>-8</sup>, respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
-* The slope of the linear model can not be considered to be zero, as the p-value of 5.35x10<sup>-11</sup>, indicated by the orange arrow above, is lower than even an extreme level of significance, and thus the null hypothesis must be rejected. This means that the relationship between our variables and the miles per gallon is subject to more than random chance.
-* Although there are still unconsidered factors, this model does predict the mpg of the MechaCar prototype with some relative effectiveness. The r-squared value of 0.7149, highlighted in the purple box, indicates that the model is 71% accurate... though it could probably do better.
+* It is observed that the **Vehicle Length** and the **Ground Clearance** are the two variables that provide non-random amount of variance to the mpg values in the dataset. The calculation yield p-values of 2.6x10<sup>-12</sup> and 5.21x10<sup>-8</sup> for the Vehicle Length and the Ground Clearance, respectively.
+* The slope of the linear model can not be considered to be zero because the p-value of 5.35x10<sup>-11</sup> for the overall fit is lower than even an extreme level of significance, and thus the null hypothesis (that the slope = 0) must be rejected. 
+* The r-squared value of 0.7149 indicates that the model is 71% accurate. The model therefore does not predics the mpg of the MechaCar prototype quite effectively and will need some improvement.
 
 ### Summary Statistics on Suspension Coils
 
