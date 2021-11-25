@@ -15,6 +15,9 @@ In this project we have performed a statistical analysis of automobile performan
 ## Results
 
 ### Linear Regression to Predict MPG
+
+The figure below shows the summary statistics for the linear regression model to predict mile per gallon (MPG)
+
 ![Multiple Linear Regression on MPG](Images/summary_mpg_multiple_linear_regression.png)
 
 * The most significant variables in our dataset which show a non-random effect on the MPG of the MechaCar are the **Vehicle Length** and the **Ground Clearance**. As indicated by the yellow arrows in the image above, a linear regression model run on these variables against figures for MPG, resulted in p-values of 2.6x10<sup>-12</sup> and 5.21x10<sup>-8</sup>, respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
