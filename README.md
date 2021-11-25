@@ -1,12 +1,16 @@
 # MechaCar Statistical Analysis
-Statisitical analysis of automobile performance with R
 
-## Overview
-AutosRUs' new MechaCar is "suffering from production troubles" and the company is hoping that an analytical review may help provide some insight. The goal of this project is to:
-* discover which variables predict the MPG for vehicle prototypes;
-* collect summary stats on the PSI of suspension coils;
+## Overview of Analysis
+
+AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress.
+The management believes that an analytical review of the production data may provide some insights that could help the manufacturing team.
+
+In this project we have performed a statistical analysis of automobile performance using R programming language. The goal of this project is to:
+* identify which variables in the dataset predict the mpg of MechaCar prototypes;
+* Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots;
 * determine if manufacturing lots are statistically different from the mean population;
 * design a study to compare the MechaCar performance against vehicles from other manufacturers.
+
 
 ## Results
 
