@@ -35,25 +35,25 @@ The table below shows the summary statistics (mean, median, variance, and standa
 
 ### T-Tests on Suspension Coils
 
-* The figure below shows Suspension Coils T-test (for all lots)
+1) The figure below shows Suspension Coils T-test (for all lots)
 
 ![Suspension Coils Cumulative T-test](Images/t_test_all_Lot.png)
 
 The results of the T-test for the suspension coils psi across all manufacturing lots shows that the p-value (0.0603) is not below the significan level (0.05) for us to reject the null hypothesis. They are therefore not statistically different from the population mean (of 1500 psi) for us to reject the null hypothesis.
 
-* The figure below shows Suspension Coils T-test (for lot1)
+2) The figure below shows Suspension Coils T-test (for lot1)
 
 ![Suspension Coil Lot 1 T-test](Images/t_test_Lot1.png)
 
 The results of the T-test for the suspension coils psi for Lot 1 shows that they are not statistically different from the population mean, and the p-value (1) is not low enough for us to reject the null hypothesis.
 
-* The figure below shows Suspension Coils T-test (for lot2)
+3) The figure below shows Suspension Coils T-test (for lot2)
 
 ![Suspension Coil Lot 2 T-test](Images/t_test_Lot2.png)
 
 The results of the T-test for the suspension coils psi for Lot 2 shows that they are not statistically different from the population mean, and the p-value (0.6072) is not low enough for us to reject the null hypothesis.
 
-* The figure below shows Suspension Coils T-test (for lot3)
+4) The figure below shows Suspension Coils T-test (for lot3)
 
 ![Suspension Coil Lot 3 T-test](Images/t_test_Lot3.png)
 
