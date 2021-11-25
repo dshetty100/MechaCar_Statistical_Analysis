@@ -25,6 +25,7 @@ AutosRUs' new MechaCar is "suffering from production troubles" and the company i
 
 ### T-Tests on Suspension Coils
 Suspension Coils Cumulative T-test
+
 ![Suspension Coils Cumulative T-test](Images/t_test_all_Lot.png)
 * A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) for us to reject the null hypothesis.
 ![Suspension Coil Lot 1 T-test](Images/t_test_Lot1.png)
