@@ -23,10 +23,12 @@ In this project we have performed a statistical analysis of automobile performan
 
 ### Summary Statistics on Suspension Coils
 
-Thr table below shows the summary statistics (mean, median, variance, and standard deviation) for the suspension coil’s PSI for all manufacturing lots (Lot1, Lot2, and Lot3).
+The table below shows the summary statistics (mean, median, variance, and standard deviation) for the suspension coil’s PSI for all manufacturing lots (Lot1, Lot2, and Lot3).
+
 ![Suspension Coil Total Summary](Images/summary_suspension_coil.png)
 
 The table below shows the summary statistics (mean, median, variance, and standard deviation) for the suspension coil’s PSI for each individual lot.
+
 ![Suspension Coil Lot Summary](Images/lot_summary_suspension_coil.png)
 
 * The overall variance, as shown in the total summary statistics for all lots above, is under 100 psi and meets specifications. However, as shown in the summary statistics table for individual lot, the variance for Lot 3 is 170.28, which is significantly high and well over the acceptable threshold.
