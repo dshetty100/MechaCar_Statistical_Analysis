@@ -34,12 +34,15 @@ The table below shows the summary statistics (mean, median, variance, and standa
 * The overall variance, as shown in the total summary statistics for all lots above, is under 100 psi and meets specifications. However, as shown in the summary statistics table for individual lot, the variance for Lot 3 is 170.28, which is significantly high and well over the acceptable threshold.
 
 ### T-Tests on Suspension Coils
-Suspension Coils Cumulative T-test
+
+Determining if the manufacturing lots are statistically different from the mean population.
+
+The figure below shows Suspension Coils T-test (for all lots)
 
 ![Suspension Coils Cumulative T-test](Images/t_test_all_Lot.png)
 
-* A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) for us to reject the null hypothesis.
-* 
+* The results of the T-test for the suspension coils across all manufacturing lots shows that the p-value (0.0603) is not below the significan level (0.05) for us to reject the null hypothesis. They are therefore not statistically different from the population mean for us to reject the null hypothesis.
+
 ![Suspension Coil Lot 1 T-test](Images/t_test_Lot1.png)
 * A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) for us to reject the null hypothesis.
 ![Suspension Coil Lot 2 T-test](Images/t_test_Lot2.png)
