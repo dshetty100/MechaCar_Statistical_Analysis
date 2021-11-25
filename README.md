@@ -23,13 +23,13 @@ In this project we have performed a statistical analysis of automobile performan
 
 ### Summary Statistics on Suspension Coils
 
-Thr table below the suspension coil’s PSI continuous variable across all manufacturing lots
+Thr table below shows the summary statistics (mean, median, variance, and standard deviation) for the suspension coil’s PSI for all manufacturing lots (Lot1, Lot2, and Lot3).
 ![Suspension Coil Total Summary](Images/summary_suspension_coil.png)
 
-The table below shows the following PSI metrics for each lot: mean, median, variance, and standard deviation.
+The table below shows the summary statistics (mean, median, variance, and standard deviation) for the suspension coil’s PSI for each individual lot.
 ![Suspension Coil Lot Summary](Images/lot_summary_suspension_coil.png)
 
-* While the overall variance, as shown in the Total Summary data above, is under 100 psi and meets specifications, there is a problem with one of the individual lots. As shown in the Lot Summary stats, the variance for Lot 3 is well over the acceptable threshold, at 170.28.
+* The overall variance, as shown in the total summary statistics for all lots above, is under 100 psi and meets specifications. However, as shown in the summary statistics table for individual lot, the variance for Lot 3 is 170.28, which is significantly high and well over the acceptable threshold.
 
 ### T-Tests on Suspension Coils
 Suspension Coils Cumulative T-test
