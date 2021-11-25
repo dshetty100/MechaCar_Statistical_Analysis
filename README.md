@@ -39,7 +39,7 @@ The table below shows the summary statistics (mean, median, variance, and standa
 
 ![Suspension Coils Cumulative T-test](Images/t_test_all_Lot.png)
 
-The results of the T-test for the suspension coils psi across all manufacturing lots shows that the p-value (0.0603) is not below the significan level (0.05) for us to reject the null hypothesis. They are therefore not statistically different from the population mean (of 1500 psi) for us to reject the null hypothesis.
+The results of the T-test for the suspension coils psi across all manufacturing lots shows that the p-value (0.0603) is not below the significan level (0.05) for us to reject the null hypothesis. They are therefore not statistically different from the population mean of 1500 psi.
 
 - The figure below shows Suspension Coils T-test (for lot1). The population mean is 1500 psi and the sample mean is 1500.00 psi.
 
