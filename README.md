@@ -7,7 +7,7 @@ The management believes that an analytical review of the production data may pro
 
 In this project we have performed a statistical analysis of automobile performance using R programming language. The goal of this project is to:
 * identify which variables in the dataset predict the mpg of MechaCar prototypes;
-* Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots;
+* collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots;
 * determine if manufacturing lots are statistically different from the mean population;
 * design a study to compare the MechaCar performance against vehicles from other manufacturers.
 
@@ -22,9 +22,13 @@ In this project we have performed a statistical analysis of automobile performan
 * Although there are still unconsidered factors, this model does predict the mpg of the MechaCar prototype with some relative effectiveness. The r-squared value of 0.7149, highlighted in the purple box, indicates that the model is 71% accurate... though it could probably do better.
 
 ### Summary Statistics on Suspension Coils
+
+Thr table below the suspension coil’s PSI continuous variable across all manufacturing lots
 ![Suspension Coil Total Summary](Images/summary_suspension_coil.png)
 
+The table below shows the following PSI metrics for each lot: mean, median, variance, and standard deviation.
 ![Suspension Coil Lot Summary](Images/lot_summary_suspension_coil.png)
+
 * While the overall variance, as shown in the Total Summary data above, is under 100 psi and meets specifications, there is a problem with one of the individual lots. As shown in the Lot Summary stats, the variance for Lot 3 is well over the acceptable threshold, at 170.28.
 
 ### T-Tests on Suspension Coils
