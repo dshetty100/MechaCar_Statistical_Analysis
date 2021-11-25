@@ -35,7 +35,7 @@ The table below shows the summary statistics (mean, median, variance, and standa
 
 ### T-Tests on Suspension Coils
 
-1) The figure below shows Suspension Coils T-test (for all lots)
+- The figure below shows Suspension Coils T-test (for all lots)
 
 ![Suspension Coils Cumulative T-test](Images/t_test_all_Lot.png)
 
