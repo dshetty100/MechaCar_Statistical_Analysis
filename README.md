@@ -35,9 +35,8 @@ The table below shows the summary statistics (mean, median, variance, and standa
 
 ### T-Tests on Suspension Coils
 
-**Null Hypothesis:** population mean = sample mean (The population mean of suspension coil psi is **not statistically different** from the sample mean)
-
-**Alternative Hypothesis:** population mean ≠ sample mean (The population mean of suspension coil psi is **statistically different** from the sample mean)
+**Null Hypothesis:** population mean = sample mean (population mean of suspension coil psi is **not statistically different** from the sample mean)\
+**Alternative Hypothesis:** population mean ≠ sample mean (population mean of suspension coil psi is **statistically different** from the sample mean)
 
 - The figure below shows Suspension Coils T-test (for all lots). The population mean is 1500 psi and the sample mean is 1498.78 psi.
 
