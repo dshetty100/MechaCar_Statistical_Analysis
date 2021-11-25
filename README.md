@@ -31,24 +31,30 @@ The table below shows the summary statistics (mean, median, variance, and standa
 
 ![Suspension Coil Lot Summary](Images/lot_summary_suspension_coil.png)
 
-* The overall variance, as shown in the total summary statistics for all lots above, is under 100 psi and meets specifications. However, as shown in the summary statistics table for individual lot, the variance for Lot 3 is 170.28, which is significantly high and well over the acceptable threshold.
+* The overall variance for suspension coil psi, as shown above in the total summary statistics for all lots, is 62.3 psi, well under the acceptable design specifications (100 psi) as dictated by MechaCar. However, as shown in the summary statistics table for individual lot, the variance for Lot 3 is 170.28 psi, and well over the acceptable threshold. The Lot 3 maufacturing data therefore does not meet the design specification.
 
 ### T-Tests on Suspension Coils
-
-Determining if the manufacturing lots are statistically different from the mean population.
 
 The figure below shows Suspension Coils T-test (for all lots)
 
 ![Suspension Coils Cumulative T-test](Images/t_test_all_Lot.png)
 
-* The results of the T-test for the suspension coils across all manufacturing lots shows that the p-value (0.0603) is not below the significan level (0.05) for us to reject the null hypothesis. They are therefore not statistically different from the population mean for us to reject the null hypothesis.
+* The results of the T-test for the suspension coils psi across all manufacturing lots shows that the p-value (0.0603) is not below the significan level (0.05) for us to reject the null hypothesis. They are therefore not statistically different from the population mean (of 1500 psi) for us to reject the null hypothesis.
+
+The figure below shows Suspension Coils T-test (for lot1)
 
 ![Suspension Coil Lot 1 T-test](Images/t_test_Lot1.png)
-* A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) for us to reject the null hypothesis.
+* The results of the T-test for the suspension coils psi for Lot 1 shows that they are not statistically different from the population mean, and the p-value (1) is not low enough for us to reject the null hypothesis.
+
+The figure below shows Suspension Coils T-test (for lot2)
+
 ![Suspension Coil Lot 2 T-test](Images/t_test_Lot2.png)
-* A review of the results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) for us to reject the null hypothesis.
+* The results of the T-test for the suspension coils psi for Lot 2 shows that they are not statistically different from the population mean, and the p-value (0.6072) is not low enough for us to reject the null hypothesis.
+* 
+The figure below shows Suspension Coils T-test (for lot3)
+
 ![Suspension Coil Lot 3 T-test](Images/t_test_Lot3.png)
-* A review of the results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) for us to reject the null hypothesis. This lot may be need to be discarded, or at least more closely evaluated.
+* The results of the T-test for the suspension coils psi for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value (0.0417) is just low enough for us to reject the null hypothesis. This lot may be need to be discarded, or at least more closely evaluated.
 
 ## Study Design: MechaCar vs Competition
 There are many factors that consumers take into consideration when evaluating a car to purchase. However, in a world where ridesharing is becoming more ubiquitous and it's easy and cheap to get around in other people's vehicles, customers looking to purchase a car are looking for more than just a conveyance. They will be looking to buy a car that is an economical means to regularly transport themselves and their items on a reliable, regular basis.
