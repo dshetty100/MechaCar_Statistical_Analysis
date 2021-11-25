@@ -19,6 +19,7 @@ AutosRUs' new MechaCar is "suffering from production troubles" and the company i
 
 ### Summary Statistics on Suspension Coils
 ![Suspension Coil Total Summary](Images/summary_suspension_coil.png)
+
 ![Suspension Coil Lot Summary](Images/lot_summary_suspension_coil.png)
 * While the overall variance, as shown in the Total Summary data above, is under 100 psi and meets specifications, there is a problem with one of the individual lots. As shown in the Lot Summary stats, the variance for Lot 3 is well over the acceptable threshold, at 170.28.
 
