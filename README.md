@@ -39,25 +39,25 @@ The table below shows the summary statistics (mean, median, variance, and standa
 
 ![Suspension Coils Cumulative T-test](Images/t_test_all_Lot.png)
 
-The results of the T-test for the suspension coils psi across all manufacturing lots shows that the p-value (0.0603) is not below the significan level (0.05) for us to reject the null hypothesis. They are therefore not statistically different from the population mean (of 1500 psi) for us to reject the null hypothesis.
+* The results of the T-test for the suspension coils psi across all manufacturing lots shows that the p-value (0.0603) is not below the significan level (0.05) for us to reject the null hypothesis. They are therefore not statistically different from the population mean (of 1500 psi) for us to reject the null hypothesis.
 
 2) The figure below shows Suspension Coils T-test (for lot1)
 
 ![Suspension Coil Lot 1 T-test](Images/t_test_Lot1.png)
 
-The results of the T-test for the suspension coils psi for Lot 1 shows that they are not statistically different from the population mean, and the p-value (1) is not low enough for us to reject the null hypothesis.
+* The results of the T-test for the suspension coils psi for Lot 1 shows that they are not statistically different from the population mean, and the p-value (1) is not low enough for us to reject the null hypothesis.
 
 3) The figure below shows Suspension Coils T-test (for lot2)
 
 ![Suspension Coil Lot 2 T-test](Images/t_test_Lot2.png)
 
-The results of the T-test for the suspension coils psi for Lot 2 shows that they are not statistically different from the population mean, and the p-value (0.6072) is not low enough for us to reject the null hypothesis.
+* The results of the T-test for the suspension coils psi for Lot 2 shows that they are not statistically different from the population mean, and the p-value (0.6072) is not low enough for us to reject the null hypothesis.
 
 4) The figure below shows Suspension Coils T-test (for lot3)
 
 ![Suspension Coil Lot 3 T-test](Images/t_test_Lot3.png)
 
-The results of the T-test for the suspension coils psi for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value (0.0417) is just low enough for us to reject the null hypothesis. This lot may be need to be discarded, or at least more closely evaluated.
+* The results of the T-test for the suspension coils psi for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value (0.0417) is just low enough for us to reject the null hypothesis. This lot may be need to be discarded, or at least more closely evaluated.
 
 ## Study Design: MechaCar vs Competition
 There are many factors that consumers take into consideration when evaluating a car to purchase. However, in a world where ridesharing is becoming more ubiquitous and it's easy and cheap to get around in other people's vehicles, customers looking to purchase a car are looking for more than just a conveyance. They will be looking to buy a car that is an economical means to regularly transport themselves and their items on a reliable, regular basis.
