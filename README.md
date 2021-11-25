@@ -18,19 +18,19 @@ AutosRUs' new MechaCar is "suffering from production troubles" and the company i
 * Although there are still unconsidered factors, this model does predict the mpg of the MechaCar prototype with some relative effectiveness. The r-squared value of 0.7149, highlighted in the purple box, indicates that the model is 71% accurate... though it could probably do better.
 
 ### Summary Statistics on Suspension Coils
-![Suspension Coil Total Summary](images/sus_coil_tot_sum.png)
-![Suspension Coil Lot Summary](images/sus_coil_lot_sum.png)
+![Suspension Coil Total Summary](Images/summary_suspension_coil.png)
+![Suspension Coil Lot Summary](Images/lot_summary_suspension_coil.png)
 * While the overall variance, as shown in the Total Summary data above, is under 100 psi and meets specifications, there is a problem with one of the individual lots. As shown in the Lot Summary stats, the variance for Lot 3 is well over the acceptable threshold, at 170.28.
 
 ### T-Tests on Suspension Coils
 Suspension Coils Cumulative T-test
-![Suspension Coils Cumulative T-test](images/sus_coil_one_samp_ttest.png)
+![Suspension Coils Cumulative T-test](Images/t_test_all_Lot.png)
 * A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) for us to reject the null hypothesis.
-![Suspension Coil Lot 1 T-test](images/sus_coil_lot1_samp_ttest.png)
+![Suspension Coil Lot 1 T-test](Images/t_test_Lot1.png)
 * A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) for us to reject the null hypothesis.
-![Suspension Coil Lot 2 T-test](images/sus_coil_lot2_samp_ttest.png)
+![Suspension Coil Lot 2 T-test](Images/t_test_Lot2.png)
 * A review of the results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) for us to reject the null hypothesis.
-![Suspension Coil Lot 3 T-test](images/sus_coil_lot3_samp_ttest.png)
+![Suspension Coil Lot 3 T-test](Images/t_test_Lot3.png)
 * A review of the results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) for us to reject the null hypothesis. This lot may be need to be discarded, or at least more closely evaluated.
 
 ## Study Design: MechaCar vs Competition
