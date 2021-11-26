@@ -69,13 +69,14 @@ The results of the T-test for the suspension coils psi for Lot 2 shows that they
 The results of the T-test for the suspension coils psi for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value (0.0417) is just low enough for us to reject the null hypothesis. This lot may be need to be discarded.
 
 ## Study Design: MechaCar vs Competition
-There are many factors that consumers take into consideration when evaluating a car to purchase. However, in a world where ridesharing is becoming more ubiquitous and it's easy and cheap to get around in other people's vehicles, customers looking to purchase a car are looking for more than just a conveyance. They will be looking to buy a car that is an economical means to regularly transport themselves and their items on a reliable, regular basis.
+There are several metrics that the consumer pay attention to when they buy a car. Fuel costs are likely to go higher in the future. So, one of the metric that consumers look for is the average fuel efficiency. If they are buying a MechaCar they would want to know, how the MechaCar would performs in comparison to competitors car.
+
 ### Metric to test
-To narrow down our test, we should evaluate MechaCar's carrying capacity, in cubic inches, in comparison to various competitors' vehicles.
+To answer the above question, one would have to carry out a statistical analysis of the metric, city/highway fuel efficiency, for MechaCar in comparison to various competitors' car.
 ### Null and Alternate Hypothesis
-H<sub>0</sub>: MechaCar prototypes' average carrying capacity is similar to competitor's vehicles in the same vehicle class
-H<sub>a</sub>: MechaCar prototypes' average carrying capacity is statistically above or below that of competitor vehicles.
+H<sub>0</sub>: MechaCar prototypes' average fuel efficiency is similar to competitor's vehicles.
+H<sub>a</sub>: MechaCar prototypes' average fuel efficiency is statistically above or below that of competitor vehicles.
 ### Statistical Test Used
-The best statistical test for this would be two-sample t-tests.
+The best statistical test for this analysis would be two-sample t-tests.
 ### What data is needed
-We would need to gather cubic space data from the carrying compartments of all MechaCar prototypes, as well as from all major competitor vehicles.
+We would need to gather fuel efficiency of all MechaCar prototypes, as well as from all major competitor vehicles.
