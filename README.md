@@ -79,4 +79,4 @@ H<sub>a</sub>: MechaCar prototypes' average fuel efficiency is statistically abo
 
 - **Statistical Test Used:** The best statistical test for this analysis would be two-sample t-tests.
 
-- **What Data is Needed:** We would need to gather fuel efficiency of all MechaCar prototypes, as well as from all major competitor vehicles.
+- **Data Needed:** We would need to gather fuel efficiency of all MechaCar prototypes, as well as from all major competitor vehicles.
