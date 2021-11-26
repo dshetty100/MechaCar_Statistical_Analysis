@@ -72,9 +72,9 @@ The results of the T-test for the suspension coils psi for Lot 3 shows that they
 There are several metrics that the consumer pay attention to when they buy a car. Fuel costs are likely to go higher in the future. So, one of the metric that consumers look for is the average fuel efficiency. If they are buying a MechaCar they would want to know, how the MechaCar would performs in comparison to competitors car.
 
 - **Metric to test:** To answer the above question, one would have to carry out a statistical analysis of the metric, city/highway fuel efficiency, for MechaCar in comparison to various competitors' car.
-- 
-- **Null and Alternate Hypothesis:**
-H<sub>0</sub>: MechaCar prototypes' average fuel efficiency is similar to competitor's vehicles.
+
+- **Null and Alternate Hypothesis:** The null and alternative hypothesis would be,
+H<sub>0</sub>: MechaCar prototypes' average fuel efficiency is similar to competitor's vehicles.\
 H<sub>a</sub>: MechaCar prototypes' average fuel efficiency is statistically above or below that of competitor vehicles.
 
 - **Statistical Test Used:** The best statistical test for this analysis would be two-sample t-tests.
