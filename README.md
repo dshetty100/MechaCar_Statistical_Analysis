@@ -73,7 +73,7 @@ There are several metrics that the consumer pay attention to when they buy a car
 
 - **Metric to test:** To answer the above question, one would have to carry out a statistical analysis of the metric, city/highway fuel efficiency, for MechaCar in comparison to various competitors' car.
 
-- **Null and Alternate Hypothesis:** The null and alternative hypothesis would be,
+- **Null and Alternate Hypothesis:** The null and alternative hypothesis would be,\
 H<sub>0</sub>: MechaCar prototypes' average fuel efficiency is similar to competitor's vehicles.\
 H<sub>a</sub>: MechaCar prototypes' average fuel efficiency is statistically above or below that of competitor vehicles.
 
